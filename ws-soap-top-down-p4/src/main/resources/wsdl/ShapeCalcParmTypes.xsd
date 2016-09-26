@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema 
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://parms.ws.service.shape.calc.eli.com/" 
+	xmlns:tns="http://parms.ws.service.shape.calc.eli.com/" 
+	xmlns:resp="http://parms.ws.service.shape.calc.eli.com/"
+	elementFormDefault="qualified"
+	>
+	<!--
+	<xs:simpleType name="StatusCode">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="SUCCESS"/>
+			<xs:enumeration value="ERROR"/>
+		</xs:restriction>
+	</xs:simpleType>
+	
+	<xsd:complexType name="StatusResponse">
+		<xsd:sequence>
+			<xsd:element minOccurs="1" maxOccurs="1" name="status" type="StatusCode" />
+			<xsd:element minOccurs="0" maxOccurs="1" name="description" type="xsd:string" />
+			<xsd:annotation> <xsd:documentation>The class of the Exception </xsd:documentation> </xsd:annotation>
+			<xsd:element minOccurs="0" maxOccurs="1" name="clazz" type="xs:string"/>
+			<xsd:annotation> <xsd:documentation>The Exception error message</xsd:documentation> </xsd:annotation>
+			<xsd:element minOccurs="0" maxOccurs="1" name="errMsg" type="xs:string"/>
+			<xsd:annotation> <xsd:documentation>The cause message if there is one</xsd:documentation> </xsd:annotation>
+			<xsd:element minOccurs="0" maxOccurs="1" name="causeMsg" type="xs:string"/>
+		</xsd:sequence>
+	</xsd:complexType>
+
+
+	<xsd:element name="RunPendingRequestsResponse">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="statusResponse" type="StatusResponse" />
+				<xsd:element name="numRun" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	-->
+</xsd:schema>
